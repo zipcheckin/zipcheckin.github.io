@@ -34,7 +34,11 @@ header.default {
 
     a {
       color: $grey1;
-    } // a\
+
+      &:hover {
+        color: $brand-color;
+      }
+    } // a
   }
 }
 
@@ -61,7 +65,27 @@ header.default {
   h2 {
     font-size: $small-font-large;
     font-weight: normal;
-    margin-top: 10px;
+    margin-top: 15px;
+  }
+}
+
+.screen-gallery {
+  text-align: center;
+  margin: 10px 0 0 0;
+
+  li {
+    width: 27%;
+    margin: 50px 1% 0 1%;
+    display: inline-block;
+    text-align: left;
+    
+    img {
+      width: 100%;
+    }
+
+    p {
+      margin: 10px 0 0 0;
+    }
   }
 }
 
@@ -71,7 +95,7 @@ footer {
   font-size: $small-font-size;
   text-align: center;
   color: $grey1;
-  margin-top: $spacing-unit;
+  margin: 100px 0;
   
   strong {
     font-weight: normal;
