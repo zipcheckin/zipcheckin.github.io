@@ -77,7 +77,6 @@ header.default {
     width: 27%;
     margin: 50px 1% 0 1%;
     display: inline-block;
-    text-align: left;
     
     img {
       width: 100%;
@@ -85,6 +84,7 @@ header.default {
 
     p {
       margin: 10px 0 0 0;
+      text-align: left;
     }
   }
 }
