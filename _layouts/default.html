@@ -10,10 +10,15 @@
     <div class="page-content">
       <div class="wrapper">
         {{ content }}
+        {% include footer.html %}
       </div>
     </div>
 
-    {% include footer.html %}
+    <script type="text/javascript">
+      $("#menu-trigger").click(function(){
+        $('.main-nav').toggle();
+      });
+    </script>
 
   </body>
 
