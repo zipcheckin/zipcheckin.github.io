@@ -70,22 +70,14 @@
     li {
       display: block;
       margin-bottom: 1px;
-
-      &:after {
-        display: none;
-      }
-
-      &:last-child:after {
-        display: none;
-      }
+      margin-left: 0;
 
       a {
         display: block;
         height: 36px;
         line-height: 36px;
-        background: blue;
-        text-transform: uppercase;
-        color: #fff !important;
+        background: $brand-color;
+        color: $white !important;
         padding: 0 8px;
         font-weight: bold;
       } // a
