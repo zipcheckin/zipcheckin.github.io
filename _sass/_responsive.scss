@@ -12,13 +12,21 @@
     margin-top: 17px !important;
   }
 
-  .left,
-  .right {
-    float: none;
-    width: 100%;
+
+  // Home
+
+  .headlines {
+  
+    h1 {
+      font-size: $small-font-large;
+    }
+  
+    h2 {
+      font-size: $small-font-large;
+    }
   }
 
-  
+
   // Footer
 
   footer {
@@ -82,12 +90,6 @@
         font-weight: bold;
       } // a
     }
-  }
-  
-  .left,
-  .right {
-    float: none;
-    width: 100%;
   }
   
 }
