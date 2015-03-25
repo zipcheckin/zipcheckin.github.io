@@ -124,6 +124,18 @@ header.default {
   }
 }
 
+
+// Features
+
+.features {
+  text-align: center;
+  background: #ccc;
+  margin-top: 50px;
+}
+
+
+// Types
+
 .types-of-zip {
   text-align: center;
   background: $white;
@@ -131,17 +143,25 @@ header.default {
   padding: 50px;
 }
 
+
+// Play button
+
 .play {
   text-align: center;
   
   a img {
     width: 200px;
     margin-top: 70px;
+    padding: 10px;
+    background: $white;
+    border: 1px solid #ddd;
+    
+    &:hover {
+      opacity: .9;
+    }
   }
   
 }
-
-
 
 
 // Footer
@@ -155,5 +175,10 @@ footer {
   strong {
     font-weight: normal;
     color: $grey2;
+  }
+  
+  img {
+    width: 100px;
+    margin-top: 10px;
   }
 }
