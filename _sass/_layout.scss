@@ -42,9 +42,28 @@ header.default {
 // Home
 
 .home {
-  margin-top: 100px;
+  margin-top: 130px;
 }
 
+.headlines {
+  text-align: center;
+  
+  h1 {
+    display: inline-block;
+    background: $brand-color;
+    font-size: $small-font-big;
+    padding: 0 15px;
+    height: 46px;
+    line-height: 43px;
+    color: $white;
+  }
+  
+  h2 {
+    font-size: $small-font-large;
+    font-weight: normal;
+    margin-top: 10px;
+  }
+}
 
 // Footer
 
