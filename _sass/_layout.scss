@@ -55,7 +55,7 @@ header.default {
 
 .banner {
   background: $brand-color;
-  background: url("/images/banner2.jpg") center -300px no-repeat;
+  background: url("/images/banner2.jpg") center -130px no-repeat;
   background-size: cover;
   height: 473px;
   
@@ -94,6 +94,7 @@ header.default {
 
 .device {
   border-radius: 25px;
+  display: none;
   width: 215px;
   position: absolute;
   right: 50px;
