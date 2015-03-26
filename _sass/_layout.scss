@@ -49,7 +49,8 @@ header.default {
   margin-top: 70px;
   
   h3 {
-    color: $brand-color;
+    text-transform: uppercase;
+    color: $brand-red;
   }
 }
 
@@ -147,7 +148,8 @@ header.default {
     display: inline-block;
     
     img {
-      width: 100px;
+      width: 120px;
+      margin-bottom: 10px;
     }
 
     p {
