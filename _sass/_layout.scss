@@ -129,12 +129,31 @@ header.default {
 }
 
 
-// Features
+// Steps
 
-.features {
+.steps {
   text-align: center;
-  background: #ccc;
-  margin-top: 50px;
+  margin-top: 60px;
+
+  h3 {
+    margin-bottom: 50px;
+  }
+  
+  li {
+    width: 20%;
+    margin: 0 1% 0 1%;
+    display: inline-block;
+    
+    img {
+      width: 100px;
+    }
+
+    p {
+      font-size: $font-small;
+      margin: 5px 0 0 0;
+      color: $grey2;
+    }
+  }
 }
 
 
@@ -143,7 +162,7 @@ header.default {
 .types-of-zip {
   text-align: center;
   background: $white;
-  margin-top: 50px;
+  margin-top: 60px;
   padding: 50px;
 }
 
