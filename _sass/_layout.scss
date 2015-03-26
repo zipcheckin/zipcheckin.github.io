@@ -114,12 +114,14 @@ header.default {
   margin: 40px 0 0 0;
 
   li {
-    width: 27%;
-    margin: 0 1% 0 1%;
+    width: 26%;
+    margin: 0 2% 0 2%;
     display: inline-block;
     
     img {
-      width: 100%;
+      width: 98%;
+      border: 1px solid $light-grey;
+      padding: 5px;
     }
 
     p {
@@ -177,7 +179,7 @@ header.default {
     margin-top: 70px;
     padding: 10px;
     background: $white;
-    border: 1px solid #ddd;
+    border: 1px solid $light-grey;
     
     &:hover {
       opacity: .9;
