@@ -66,7 +66,7 @@ header.default {
     line-height: 19px;
     margin: 0 0 7px 0;
     border-bottom: 1px solid $light-grey;
-    padding-bottom: 7px;
+    padding-bottom: 5px;
   }
   
   a.email {
@@ -75,7 +75,7 @@ header.default {
     padding: 0 10px;
     display: block;
     color: $white;
-    background: $brand-color;
+    background: $brand-red;
     font-size: 13px;
     margin-top: 10px;
   }

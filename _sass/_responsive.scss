@@ -87,6 +87,24 @@
     } // li
   }
   
+  #support-entry,
+  #contact-entry {
+    border: none;
+    width: 96%;
+    background: rgba(#f9f9f9, 1);
+    position: inherit !important;
+    padding: 2%;
+    top: none !important;
+    right: none !important;
+  }
+  
+  #support-entry:before,
+  #support-entry:after,
+  #contact-entry:before,
+  #contact-entry:after {
+    display: none;
+  }
+  
   
   // Home
   
