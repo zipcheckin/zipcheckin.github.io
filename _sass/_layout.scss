@@ -120,27 +120,6 @@ header.default {
   }
 }
 
-.screen-gallery {
-  text-align: center;
-  margin: 40px 0 0 0;
-
-  li {
-    width: 26%;
-    margin: 0 2% 0 2%;
-    display: inline-block;
-    
-    img {
-      width: 98%;
-      border: 1px solid $light-grey;
-      padding: 5px;
-    }
-
-    p {
-      margin: 10px 0 0 0;
-    }
-  }
-}
-
 
 // Steps
 
@@ -171,6 +150,37 @@ header.default {
       font-size: $font-small;
       margin: 5px 0 0 0;
       color: $grey2;
+    }
+  }
+}
+
+
+// Screenshots
+
+.screenshots {
+  border-top: 2px solid $light-grey;
+  padding-top: 50px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.screen-gallery {
+  text-align: center;
+  margin: 40px 0 0 0;
+
+  li {
+    width: 26%;
+    margin: 0 2% 0 2%;
+    display: inline-block;
+    
+    img {
+      width: 98%;
+      border: 1px solid $light-grey;
+      padding: 5px;
+    }
+
+    p {
+      margin: 10px 0 0 0;
     }
   }
 }
