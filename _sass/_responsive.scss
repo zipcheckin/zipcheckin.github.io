@@ -1,5 +1,11 @@
 //responsive
 
+@media only screen and (min-width: 1450px) {
+  .banner {
+    background-position: center -430px;
+  }
+}
+
 @media (max-width: 960px) {
   
   .wrapper {
