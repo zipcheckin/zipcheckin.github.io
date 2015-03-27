@@ -39,19 +39,22 @@ header.default {
         color: $brand-color;
       }
     } // a
+  } // li
+}
+
+header.default.tiny {
+  height: 50px;
+  background: rgba($white, .9);
+  
+  .logo {
+    width: 100px !important;
+    margin-top: 10px !important;
+  }
+
+  ul {
+    margin-top: 10px;
   }
   
-  .integration {
-    opacity: .3;
-
-    a {
-      cursor: default;
-
-      &:hover {
-        color: $grey1;
-      }
-    }
-  }
 }
 
 

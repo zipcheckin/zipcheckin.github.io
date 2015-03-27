@@ -11,9 +11,17 @@
     {% include footer.html %}
 
     <script type="text/javascript">
-      $("#menu-trigger").click(function(){
+
+      $("#menu-trigger").click(function() {
         $('.main-nav').toggle();
       });
+
+      if(document.body.offsetWidth >= 800) {
+        $(window).on("scroll touchmove", function() {
+          $('header.default').toggleClass('tiny', $(document).scrollTop() > 0);
+        });
+      }
+
     </script>
 
   </body>
