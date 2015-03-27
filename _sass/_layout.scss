@@ -188,12 +188,15 @@ header.default.tiny {
   margin-top: 50px;
   text-align: center;
   
-  img {
-    width: 100% !important;
-    border: none;
-    padding: 0 !important;
-    box-shadow: 0 0 12px #ddd;
-  }
+  li {
+
+    img {
+      width: 100%;
+      border: none;
+      padding: 0;
+      box-shadow: 0 0 12px #ddd;
+    }
+  } // li
 }
 
 
