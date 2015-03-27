@@ -15,6 +15,21 @@
       $("#menu-trigger").click(function() {
         $('.main-nav').toggle();
       });
+      
+      $("#support-trigger").click(function() {
+        $('#support-entry').toggle();
+        $('#contact-entry').hide();
+      });
+
+      $("#contact-trigger").click(function() {
+        $('#contact-entry').toggle();
+        $('#support-entry').hide();
+      });
+      
+      $('#contact-entry, #support-entry').mouseleave(function() {
+        $('#support-entry').hide();
+        $('#contact-entry').hide();
+      });
 
     </script>
 

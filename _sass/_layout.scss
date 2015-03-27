@@ -22,6 +22,10 @@ header.default {
   .main-nav {
     margin-top: 20px;
   }
+  
+  .wrapper {
+    position: relative;
+  }
 }
 
 .main-nav {
@@ -41,6 +45,74 @@ header.default {
     } // a
   } // li
 }
+
+
+// Dropdowns
+
+#support-entry,
+#contact-entry {
+  border: 5px solid $brand-color;
+  width: 200px;
+  background: rgba($white, .9);
+  position: absolute;
+  padding: 15px 20px 20px 20px;
+  top: 65px;
+  right: 0;
+  z-index: 400;
+  display: none;
+  
+  p {
+    font-size: $font-small;
+    line-height: 19px;
+    margin: 0 0 7px 0;
+    border-bottom: 1px solid $light-grey;
+    padding-bottom: 7px;
+  }
+  
+  a.email {
+    height: 25px;
+    line-height: 25px;
+    padding: 0 10px;
+    display: block;
+    color: $white;
+    background: $brand-color;
+    font-size: 13px;
+    margin-top: 10px;
+  }
+}
+
+#support-entry:before,
+#support-entry:after,
+#contact-entry:before,
+#contact-entry:after {
+  content: '';
+  position: absolute;
+  top: -15px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid $brand-color;
+}
+
+#support-entry:before,
+#support-entry:after {
+  left: 91px;
+}
+
+#contact-entry:before,
+#contact-entry:after {
+  right: 13px;
+}
+
+#support-entry {
+  
+}
+
+#contact-entry {
+  
+}
+
 
 
 // Store
