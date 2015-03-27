@@ -26,10 +26,12 @@
         $('#support-entry').hide();
       });
       
-      $('#contact-entry, #support-entry').mouseleave(function() {
-        $('#support-entry').hide();
-        $('#contact-entry').hide();
-      });
+      if(document.body.offsetWidth >= 800) {
+        $('#contact-entry, #support-entry').mouseleave(function() {
+          $('#support-entry').hide();
+          $('#contact-entry').hide();
+        });
+      }
 
     </script>
 
