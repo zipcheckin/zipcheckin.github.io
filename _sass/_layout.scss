@@ -157,13 +157,6 @@ header.default {
 
 // Screenshots
 
-.screenshots {
-  border-top: 2px solid $light-grey;
-  padding-top: 50px;
-  margin-top: 50px;
-  text-align: center;
-}
-
 .screen-gallery {
   text-align: center;
   margin: 40px 0 0 0;
@@ -176,12 +169,27 @@ header.default {
     img {
       width: 98%;
       border: 1px solid $light-grey;
+      background: $white;
       padding: 5px;
     }
 
     p {
       margin: 10px 0 0 0;
     }
+  }
+}
+
+.screenshots {
+  border-top: 2px solid $light-grey;
+  padding-top: 50px;
+  margin-top: 50px;
+  text-align: center;
+  
+  img {
+    width: 100% !important;
+    border: none;
+    padding: 0 !important;
+    box-shadow: 0 0 12px #ddd;
   }
 }
 
