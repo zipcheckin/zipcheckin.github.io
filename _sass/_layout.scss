@@ -43,6 +43,41 @@ header.default {
 }
 
 
+// Store
+
+.stores {
+  margin-top: 65px;
+  
+  p {
+    margin: 0 0 5px 0;
+  }
+  
+  img {
+    margin-right: 5px;
+    width: 130px;
+    opacity: .4;
+  }
+}
+
+.store-banner {
+  p {
+    color: $white;
+  }
+}
+
+.store-bottom {
+  text-align: center;
+
+  p {
+    color: $grey1;
+  }
+  
+  img {
+    opacity: .2;
+  }
+}
+
+
 // Home
 
 .home {
@@ -84,10 +119,6 @@ header.default {
     font-weight: normal;
     margin-top: 15px;
     color: $white;
-  }
-  
-  a img {
-    margin-top: 70px;
   }
 }
 
@@ -181,22 +212,6 @@ header.default {
     width: 30%;
     margin-top: 40px;
   }
-}
-
-
-// Play button
-
-.play {
-  text-align: center;
-  
-  a img {
-    margin-top: 70px;
-
-    &:hover {
-      opacity: .9;
-    }
-  }
-  
 }
 
 
