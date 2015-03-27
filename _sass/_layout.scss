@@ -87,9 +87,7 @@ header.default {
   }
   
   a img {
-    width: 200px;
     margin-top: 70px;
-    border: 1px solid $white;
   }
 }
 
@@ -182,12 +180,8 @@ header.default {
   text-align: center;
   
   a img {
-    width: 200px;
     margin-top: 70px;
-    padding: 10px;
-    background: $white;
-    border: 1px solid $light-grey;
-    
+
     &:hover {
       opacity: .9;
     }
