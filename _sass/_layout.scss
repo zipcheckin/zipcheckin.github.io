@@ -40,6 +40,18 @@ header.default {
       }
     } // a
   }
+  
+  .integration {
+    opacity: .3;
+
+    a {
+      cursor: default;
+
+      &:hover {
+        color: $grey1;
+      }
+    }
+  }
 }
 
 
