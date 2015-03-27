@@ -43,18 +43,11 @@ header.default {
 }
 
 header.default.tiny {
-  height: 50px;
   background: rgba($white, .9);
   
-  .logo {
-    width: 100px !important;
-    margin-top: 10px !important;
+  &:hover {
+    background: rgba($white, 1);
   }
-
-  ul {
-    margin-top: 10px;
-  }
-  
 }
 
 
