@@ -138,10 +138,7 @@ header.default {
     display: inline-block;
     
     img {
-      width: 98%;
-      border: 1px solid $light-grey;
-      background: $white;
-      padding: 5px;
+      width: 100%;
     }
 
     p {
@@ -156,25 +153,34 @@ header.default {
   margin-top: 50px;
   text-align: center;
   
+  ul {
+    margin: 40px 0 0 0;
+    padding: 0;
+  }
+  
   li {
 
     img {
-      width: 100%;
-      border: none;
-      padding: 0;
       box-shadow: 0 0 12px #ddd;
     }
   } // li
 }
-
-
-// Types
 
 .types-of-zip {
   text-align: center;
   background: $white;
   margin-top: 60px;
   padding: 50px;
+  
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    width: 30%;
+    margin-top: 40px;
+  }
 }
 
 
