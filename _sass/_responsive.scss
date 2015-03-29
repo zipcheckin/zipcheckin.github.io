@@ -7,16 +7,16 @@
 }
 
 @media (max-width: 960px) {
-  
+
   .wrapper {
     width: 700px;
   }
-  
+
   .logo {
     width: 140px;
     margin-top: 17px;
   }
-  
+
   .banner {
     background-position: center bottom;
   }
@@ -141,6 +141,9 @@
     h1 {
       font-size: $font-large;
       margin-top: 60px;
+      padding: 5px 15px;
+      height: auto;
+      line-height: 25px;
     }
   
     h2 {
