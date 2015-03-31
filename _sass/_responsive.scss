@@ -112,8 +112,8 @@
     background: rgba(#f9f9f9, 1);
     position: inherit !important;
     padding: 2%;
-    top: none !important;
-    right: none !important;
+    top: 0 !important;
+    right: 0 !important;
   }
 
   #support-entry:before,
@@ -208,7 +208,6 @@
 }
 
 @media only screen and (max-width: 500px) {
-
 
   .infos {
     h1 {
