@@ -2,6 +2,11 @@
 layout: default
 ---
 
+<div class="remodal" data-remodal-id="modal">
+  <button data-remodal-action="close" class="remodal-close"></button>
+  <iframe id="youtube-zipcheckin" width="630" height="354" src="https://www.youtube.com/embed/ay1xRR1feH8" frameborder="0" allowfullscreen></iframe>
+</div>
+
 <div class="home">
 
   <section class="banner">
@@ -12,9 +17,18 @@ layout: default
         <h1>One Register Check-In Anywhere</h1>
         <h2>Add your personal info and use it anywhere<br> with just a tap.</h2>
 
-        <div class="stores store-banner">
-          <p>Coming soon on...</p>
-          <img src="/images/play.png"> <img src="/images/appstore.png">
+        <div class="sub-banner">
+          <div class="stores store-banner">
+            <p>Coming soon on...</p>
+            <img src="/images/play.png"> <img src="/images/appstore.png">
+          </div>
+
+          <div class="video-banner">
+            <a href="#modal" class="button">
+              ZipCheckin in one minute video
+              <img src="/images/play.svg">
+            </a>
+          </div>
         </div>
 
       </div> <!-- /infos -->

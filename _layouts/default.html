@@ -15,7 +15,7 @@
       $("#menu-trigger").click(function() {
         $('.main-nav').toggle();
       });
-      
+
       $("#support-trigger").click(function() {
         $('#support-entry').toggle();
         $('#contact-entry').hide();
@@ -25,13 +25,20 @@
         $('#contact-entry').toggle();
         $('#support-entry').hide();
       });
-      
+
       if(document.body.offsetWidth >= 800) {
         $('#contact-entry, #support-entry').mouseleave(function() {
           $('#support-entry').hide();
           $('#contact-entry').hide();
         });
       }
+
+      $(document).on('closed', '.remodal', function () {
+        var $obj = $('#youtube-zipcheckin');
+        var url = $obj.attr('src');
+        $obj.attr('src', '');
+        $obj.attr('src', url);
+      });
 
     </script>
 

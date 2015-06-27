@@ -98,10 +98,37 @@ header.default {
 }
 
 
+// Sub-banner
+
+.sub-banner {
+  margin-top: 85px;
+}
+
+// Video
+.video-banner {
+  float: right;
+  width: 50%;
+  text-align: right;
+
+  .button {
+    background: #1d5f8f;
+    color: white;
+    display: inline-block;
+    margin-top: 28px;
+    padding: 10px 15px;
+
+    img {
+      height: auto;
+      vertical-align: middle;
+      width: 30px;
+    }
+  }
+}
+
 // Store
 
 .stores {
-  margin-top: 65px;
+  float: left;
 
   p {
     margin: 0 0 5px 0;
