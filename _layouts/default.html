@@ -33,11 +33,12 @@
         });
       }
 
+      $(document).on('opening', '.remodal', function () {
+        $('#youtube-zipcheckin').attr('src', 'https://www.youtube.com/embed/ay1xRR1feH8?autoplay=1');
+      });
+
       $(document).on('closed', '.remodal', function () {
-        var $obj = $('#youtube-zipcheckin');
-        var url = $obj.attr('src');
-        $obj.attr('src', '');
-        $obj.attr('src', url);
+        $('#youtube-zipcheckin').attr('src', '/images/video-thumb.jpg');
       });
 
     </script>
