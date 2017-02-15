@@ -212,6 +212,25 @@
     }
   }
 
+  .sub-banner {
+    margin-top: 25px;
+  }
+
+  // Video
+  .video-banner {
+    float: none;
+    width: 100%;
+    text-align: left;
+
+    .button {
+      padding: 7px 15px;
+
+      img {
+        margin-top: 0px;
+      }
+    }
+  }
+
 }
 
 @media only screen and (max-width: 500px) {
